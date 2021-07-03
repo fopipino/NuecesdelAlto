@@ -1,0 +1,489 @@
+*{
+    margin: 0px 5px 0px 5px;
+}
+body{
+    background-color: whitesmoke
+}
+.cabecera{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #5D6363;
+    height: 25px;
+    margin: 0px 2px 0px 2px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.header{
+    display: grid;
+    grid-template-areas: 
+    "logo nombre nav buscar";
+    grid-template-rows: 75px;
+    grid-template-columns: 10% 15% auto 25%;
+    background-color: #5D6363;
+    margin: 0px 2px 0px 2px; 
+}
+.logo{
+    grid-area: logo;
+}
+.nombre{
+    grid-area: nombre;
+}
+.nav{
+    grid-area: nav;
+}
+.buscar{
+    grid-area: buscar;
+}
+.logo__nueces{
+    width: 65px;
+    height: 60px;
+    border: 2px solid whitesmoke;
+    border-radius: 20%;
+    margin-left: 23px;
+    margin-top: 6px;
+}
+.header__section--titulo{
+    padding: 0px;
+    padding: 25px 5px 30px 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.titulo__header{
+    align-self: left;
+    color:white;
+    font-size: 15px;
+}
+
+.header__section--menu{
+    border: 0px solid whitesmoke;
+    padding-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.listaBloqueMenu{
+	display: inline-block;
+	padding-left: 20px;
+	margin: 15px 15px 15px 0px;	
+}
+.a{
+    color: white;
+    font-size: 15px;
+}
+.a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+.FondoMenu{
+	width: 97%;
+	height: 50px;
+	margin: 0%;
+	text-align: center
+}
+.header__section--buscador{
+    display: flex;
+    flex-flow: row wrap;
+}
+form{
+    border: 2px solid whitesmoke;
+    border-radius: 10%;
+	margin: 25px 15px 15px 15px;
+}
+.ColBuscador{
+    color: white;
+}
+
+/* ACA COMIENZA "SOBRE NOSOTROS"*/
+
+.cuerpo{
+    grid-column-gap: 0px;
+}
+.cuerpo {
+    display: grid;
+    grid-template-areas: 
+    "historia valores familia"
+    "historia valores familia"
+    "historia valores familia";
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 33% 33%;
+    background-color: whitesmoke;
+    margin: 15px 7px 0px 7px;
+}
+.historia{
+    grid-area: historia;
+}
+.valores{
+    grid-area: valores;
+}
+.familia{
+    grid-area: familia;
+}
+/* Clases de las secciones*/
+
+.cuerpoHistoria{
+    border: 1px solid black;
+    border-radius: 3%;
+    margin-top: 10px;
+
+}
+.cuerpoHistoria:hover{
+    background-image: linear-gradient(to bottom, rgb(212, 149, 66),#B5AC9A);
+    transform: scale(1.05,1.05);
+    transition: 1.5s;
+}
+.imagenHistoria{
+    width: 90px;
+    height: 80px;
+    margin: 10px 0px 0px 140px;
+    border: 1px solid black;
+    border-radius: 10%;
+    transition: 2s;
+}
+.imagenHistoria:hover{
+    width: 150px;
+    height:140px;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.cuerpoValores{
+    border: 1px solid black;
+    border-radius: 3%;
+    margin-top: 10px;
+}
+.cuerpoValores:hover{
+    background-image: linear-gradient(to bottom, rgb(212, 149, 66),#B5AC9A);
+    transform: scale(1.05,1.05);
+    transition: 1.5s;
+}
+.imagenValores{
+    width: 180px;
+    height: 120px;
+    margin-top: 10px;
+    margin: 10px 0px 0px 110px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.imagenValores:hover{
+    width: 200px;
+    height: 160px;
+    margin: 10px 10px 0px 100px;
+    border: 2px solid black;
+    border-radius: 10%;
+    transition: 1s;
+}
+.cuerpoFamilia{
+    border: 1px solid black;
+    border-radius: 3%;
+    margin-top: 10px;
+}
+.cuerpoFamilia:hover{
+    background-image: linear-gradient(to bottom, rgb(212, 149, 66),#B5AC9A);
+    transform: scale(1.05,1.05);
+    transition: 1.5s;
+}
+.imagenFamília{
+    width: 180px;
+    height: 120px;
+    margin: 10px 0px 0px 100px;
+    border: 1px solid black;
+    border-radius: 10%;
+    transition: 2s;
+}
+.imagenFamília:hover{
+    width: 170px;
+    height: 160px;
+    margin: 10px 0px 0px 120px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.subtitulo{
+	text-align: left;
+	font-family: 'Aleo';font-size: 22px;
+    margin-top: 20px;
+    text-align: left;
+}
+.Párrafo{
+	text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+/* ACA COMIENZA EL FOOTER*/
+.footer{
+    margin: 300px 2px 0px 2px;
+}
+.footer--envíos{
+    margin: 460px 2px 0px 2px;
+}
+.footer--contacto{
+    margin: 460px 2px 0px 2px;
+}
+.section{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: rgb(177, 124, 56);
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+.imgChica{
+    height: 25px;
+    width: 25px;
+}
+.imgChica:hover{
+    border: 2px solid whitesmoke;
+    padding: 3px;
+}
+.imgChica__alin{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.ultimoFooter{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(177, 124, 56);
+    margin-top: 0px;
+    border-top: 1px solid whitesmoke;
+    justify-content: center;
+    font-size: 1em;
+}
+span{
+    color: whitesmoke;
+
+}
+.lista{
+    padding-top: 15px;
+}
+.lista--footer{
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+
+/* ACÁ COMIENZA CONTACTOS*/
+
+.info{
+    padding-bottom: 20px;
+}
+
+#formulario{
+    display: grid;
+    grid-template-areas: 
+        "nombre introducirnombre"
+        "apellido introducirapellido"
+        "sexo indique"
+        "sugerencia sugerencia"
+        "terminos chek"
+        "enviar limpiar"
+    ;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    background-color: ;
+    margin: 0px 2px 0px 2px; 
+}
+#nombre{
+    grid-area: nombre;
+}
+#introducirnombre{
+    grid-area: introducirnombre;
+}
+#apellido{
+    grid-area: apellido;
+}
+#introducirapellido{
+    grid-area: introducirapellido;
+}
+#sexo{
+    grid-area: sexo;
+}
+#indique{
+    grid-area: indique;
+}
+#sugerencia{
+    grid-area: sugerencia;
+}
+#terminos{
+    grid-area: terminos;
+}
+#chek{
+    grid-area: chek;
+    justify-self: sta+;
+}
+#enviar{
+    grid-area: enviar;
+}
+#limpiar{
+    grid-area: limpiar;
+}
+.contorno{
+    margin: 10px 50px 0px 50px;
+    background-image: linear-gradient(to bottom, rgb(212, 149, 66),#B5AC9A);
+}
+
+/*ACA COMIENZA "PRODUCTOS"*/
+
+.tituloPrincipal{
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+.contenedor{
+    max-width: 1000px;
+    width: 60%;
+    margin: 0 auto;
+    background:
+    border-collapse: collapse;
+}
+.contenedor__cards {
+    margin: 70px 0;
+}
+.card {
+    background: #FFF;
+    border-radius: 15px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.card__thumbnail {
+    margin-right: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.card__foto {
+    width: 100%;
+}
+.card__titulo {
+    text-align: left;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom:20px;
+}
+.card__extracto {
+    line-height: 28px;
+    color: #6D6D6D;
+    margin-bottom: 20px;
+}
+.boton {
+    border: none;
+    min-width: 100px;
+    height: 30px;
+    padding: 0 30px;
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #403CC2;
+    transition: .3s ease all;
+}
+
+.boton__texto {
+    font-weight: 600;
+}
+
+.boton:hover {
+    background: #1B1881;
+    text-decoration: none;
+}
+
+.boton--absolute {
+    position: absolute;
+    right: 20px;
+    bottom: -25px;
+}
+.boton--verde {
+    background: #7BA771;
+    border-radius: 5px;
+}
+.boton--verde:hover {
+    background: #071105;
+}
+.boton--absolute {
+    position: absolute;
+    right: 20px;
+    bottom: -25px;
+}
+.frase {
+    text-align: center;
+    margin: 70px;
+}
+
+.frase__texto {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+
+
+
+/* MEDIA QUERIES*/
+@media screen and (max-width: 600px){
+    .listaBloqueMenu{
+        display: block;
+    }
+    .cuerpo{
+        display: block;
+    }
+    #grilla{
+        justify-content: center;
+    }
+    .header{
+        display: grid;
+        grid-template-areas: 
+        "logo nombre"
+        "buscar"
+        "nav";
+        grid-template-rows: 50% 50%;
+        grid-template-columns: auto;
+        background-color: #5D6363;
+        justify-content: center
+        ;
+    }
+    .logo{
+        grid-area: logo;
+    }
+    .nombre{
+        grid-area: nombre;
+    }
+    .nav{
+        grid-area: nav;
+    }
+    .buscar{
+        grid-area: buscar;
+    }
+    .section{
+        display: block;
+        background-color: rgb(177, 124, 56);
+        justify-content: space-around;
+        height: auto;
+    }
+    .imgChica{
+        height: 25px;
+        width: 25px;
+        margin-left: 30px;
+        margin-bottom: 3px;
+        border: 2px solid whitesmoke;
+        box-shadow: 2px 3px black;
+    }
+}

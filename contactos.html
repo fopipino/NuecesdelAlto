@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="https://scontent.fcor2-1.fna.fbcdn.net/v/t1.6435-9/105618845_119658886457750_9008809471486246585_n.png?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeEyuzvil_Dksuf0HveB0od_hCDnEULQKyyEIOcRQtArLC6tCsW9hu45EnyD_d5oUNc&_nc_ohc=JGF-JvKA4C0AX-3U-Z8&_nc_ht=scontent.fcor2-1.fna&oh=886b523c77bbf6a67f8362621eee0585&oe=60DCABEC" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/Style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+	<title> &#174 Sobre Nosotros</title>
+</head>
+<body class="body">
+	<header>
+        <div class="cabecera">
+            <h3>Recibí tu pedido hoy en Neuquén // Plottier // Cipolleti &#128640</h3>
+        </div>
+        <div class="header">
+            <section id="logo" class="header__section--logo">
+                <a href="index.html"> <img src="https://scontent.fcor2-1.fna.fbcdn.net/v/t1.6435-1/s200x200/105618845_119658886457750_9008809471486246585_n.png?_nc_cat=107&ccb=1-3&_nc_sid=dbb9e7&_nc_ohc=CeOG8oQeNHgAX94psG4&_nc_ht=scontent.fcor2-1.fna&tp=30&oh=df99e736e53d491f72d3a3d471e80549&oe=60D886CE" alt="Logo Nueces del Alto" class="logo__nueces"></a>
+            </section>
+            <section class="header__section--titulo" id="nombre">
+                    <section class="titulo__header">
+                        <h1>Nueces del Alto &#174</h1>
+                    </section>
+            </section>
+            <nav class="header__section--menu" id="nav">
+                <ul class="FondoMenu">			<!-- Menú de navegación -->
+                    <li class="listaBloqueMenu"><a class="a" href="index.html">Inicio</a></li>
+                    <li class="listaBloqueMenu"><a class="a" href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                    <li class="listaBloqueMenu"><a class="a" href="productos.html">Productos</a></li>
+                    <li class="listaBloqueMenu"><a class="a" href="contactos.html">Contacto</a></li>
+                    <li class="listaBloqueMenu"><a class="a" href="envíos.html">Envíos</a></li>		
+                </ul>
+            </nav>
+            <section class="header__section--buscador" id="buscar">
+                <form action="/action_page.php">
+                    <label class="ColBuscador" for="gsearch">Search Google:</label>
+                    <input type="search" id="gsearch" name="gsearch">
+                </form>
+            </section>
+        </div>
+    </header>
+	<fieldset class="contorno">
+			<legend>Contacto</legend>	<!-- Aquí comienza el formulario -->
+			<form id=formulario action="formulario.php" method="post">				
+				<h3 class="info">Información personal</h3>
+					<label id="nombre" for="Nombre">Nombre:</label>
+					<input id="introducirnombre" type="text" name="Nombre" placeholder="Introduzca sus datos">
+
+					<label id="apellido" for="Apellido">Apellido:</label>
+					<input id="introducirapellido" type="text" name="Apellido" placeholder="Introduzca sus datos">		
+					<label id="sexo" for="Sexo">Indique su sexo</label>
+					<select id="indique" name="Sexo">
+						<option value="M">Masculino</option>
+						<option value="F">Femenino</option>
+						<option value="@">Otro</option>
+					</select>				
+				<textarea itemid="sugerencia" placeholder="Ingrese sus comentarios" name="Comentario" id="Opinión" cols="30" rows="10"></textarea>
+				<label id="terminos" for="Acepta">Acepta términos y condiciones</label>
+				<input id="chek" type="checkbox" name="Acepta" value="1">		   
+				<input id="enviar" type="submit" value="Enviar formulario">
+				<input id="limpiar" type="reset" value="Limpiar formulario">
+			</form>
+	</fieldset>
+
+	<footer class="footer--contacto">
+        <section class="section">
+            <div>
+                <ul class="lista--footer">
+                    <li class="li"> &#128666 Envio gratuito a Neuquén, Plottier y Cipolleti.</li>
+                    <li class="li"> &#127759 Consultar por envíos al interior del país.</li>
+                    <li class="li"> &#9989 Lo mejor para nuestro cliente Siempre.</li>
+                </ul>
+            </div>
+                    
+            <div class="div1">
+                <ul class="lista--footer">
+                    <li class="li">&#128222 Teléfono: 0351-156429XXX.</li>
+                    <li class="li">&#128235 nuecesdelalto2020@gmail.com</li>
+                    <li class="li">&#9968 Patagonia Argentina.</li>
+                </ul>
+            </div>
+            <div class="div1">
+                <ul class="lista">
+                    <li class="li">Teléfono: 0351-156429XXX.</li>    
+                    <li class="li">&#127961 Plottier, Neuquén.</li>
+                    <li class="li">Patagonia Argentina.</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="lista">
+                    <li class="imgChica__alin"> <a href="https://www.instagram.com/nuecesdelaltook/"><img src="img/instagram.png" alt="instagram" class="imgChica"></a></li> 
+                    <li class="imgChica__alin"> <a href="https://www.facebook.com/NuecesdelAltook/"><img src="img/facebook.png" alt="facebook" class="imgChica"></a> </li>
+                    <li class="imgChica__alin"> <a href="https://wa.me/5493516170678"> <img src="img/whatsapp.png" alt="watsapp" class="imgChica"></a></li>
+                </ul>
+            </div>
+        </section>
+        <div class="ultimoFooter">
+            <span>
+                ©Copyright Proyecto de Cursado, Fernando Pipino.
+            </span>
+        </div>
+    
+    </footer>
+ 	
+</body>
+</html>
